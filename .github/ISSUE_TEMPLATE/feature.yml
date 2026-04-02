@@ -1,0 +1,46 @@
+name: Feature request
+description: Suggest an improvement or new capability
+title: "[FEATURE] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests are public on purpose.
+        Share the problem first, then the solution you would like to see.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a short summary of the requested feature.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Explain the problem or need this feature would address.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution
+      description: Describe the solution you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Describe any alternatives you have considered.
+    validations:
+      required: false
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any other relevant context.
+    validations:
+      required: false

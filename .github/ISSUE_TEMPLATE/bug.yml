@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a reproducible problem
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+        Please use this public template for normal bugs. If the issue is security-sensitive, do not continue here and follow the security policy instead.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue clearly and concisely.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps needed to reproduce the issue.
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide relevant environment details such as OS, browser, version, or runtime.
+    validations:
+      required: true
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any other context, logs, or screenshots if relevant.
+    validations:
+      required: false

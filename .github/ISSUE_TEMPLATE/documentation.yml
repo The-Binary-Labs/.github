@@ -1,0 +1,32 @@
+name: Documentation request
+description: Suggest an improvement to documentation
+title: "[DOCS] "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Documentation issues are always welcome.
+        If something is missing, unclear, outdated, or confusing, please tell us here.
+  - type: textarea
+    id: affected_docs
+    attributes:
+      label: Affected docs
+      description: Identify the documentation pages, files, or sections involved.
+    validations:
+      required: true
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Issue description
+      description: Explain what is missing, unclear, outdated, or incorrect.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_improvement
+    attributes:
+      label: Proposed improvement
+      description: Describe how the documentation should be improved.
+    validations:
+      required: true

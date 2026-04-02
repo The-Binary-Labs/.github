@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing guide
+    url: https://github.com/The-Binary-Labs/.github/blob/main/.github/CONTRIBUTING.md
+    about: Read our default contribution guidance before opening larger changes.
+  - name: Security policy
+    url: https://github.com/The-Binary-Labs/.github/blob/main/.github/SECURITY.md
+    about: Please report security vulnerabilities privately instead of using public issues.
